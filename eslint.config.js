@@ -20,12 +20,6 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
-    exports : {
-      plugins: {
-        'tailwindcss': {},
-        'autoprefixer': {},
-      },
-    },
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
